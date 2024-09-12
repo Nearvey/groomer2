@@ -22,7 +22,7 @@
 
 <div id="offer" class="flex flex-col font-Akaya sm:flex-row bg-tertiary-500">
   <div class="sm:w-1/3">
-    <img src="src/lib/assets/dogs1.png" alt="" class="w-full" />
+    <img src={dogs1} alt="" class="w-full" />
     <div class="">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Strzyżenie</h2>
