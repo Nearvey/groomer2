@@ -1,0 +1,35 @@
+export const manifest = (() => {
+function __memo(fn) {
+	let value;
+	return () => value ??= (value = fn());
+}
+
+return {
+	appDir: "_app",
+	appPath: "_app",
+	assets: new Set([".nojekyll","favicon.png"]),
+	mimeTypes: {".png":"image/png"},
+	_: {
+		client: {"start":"_app/immutable/entry/start.DgYuzf8H.js","app":"_app/immutable/entry/app.CqAKA97h.js","imports":["_app/immutable/entry/start.DgYuzf8H.js","_app/immutable/chunks/entry.DieApOLP.js","_app/immutable/chunks/scheduler.Bmg8oFKD.js","_app/immutable/chunks/paths.AhnRULFr.js","_app/immutable/entry/app.CqAKA97h.js","_app/immutable/chunks/scheduler.Bmg8oFKD.js","_app/immutable/chunks/index.DRCnJuQ5.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		nodes: [
+			__memo(() => import('./nodes/0.js')),
+			__memo(() => import('./nodes/1.js')),
+			__memo(() => import('./nodes/2.js'))
+		],
+		routes: [
+			{
+				id: "/",
+				pattern: /^\/$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 2 },
+				endpoint: null
+			}
+		],
+		matchers: async () => {
+			
+			return {  };
+		},
+		server_assets: {}
+	}
+}
+})();
