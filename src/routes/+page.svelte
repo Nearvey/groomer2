@@ -1,6 +1,15 @@
 <script>
   import landing from "$lib/assets/landing.png";
   import dogs1 from "$lib/assets/dogs1.png";
+  import dogs2 from "$lib/assets/dogs2.png";
+  import dogs3 from "$lib/assets/dogs3.png";
+  import aboutdog from "$lib/assets/about-dog.png";
+  import add from "$lib/assets/add.png";
+  import ear from "$lib/assets/ear.png";
+  import landing1 from "$lib/assets/landing1.png";
+  import pawprint from "$lib/assets/pawprint.png";
+  import scissors from "$lib/assets/scissors.png";
+  import shower from "$lib/assets/shower.png";
   import { base } from "$app/paths";
 </script>
 
@@ -34,7 +43,7 @@
     </div>
   </div>
   <div class="sm:w-1/3">
-    <img src="/src/lib/assets/dogs2.png" alt="" class="w-full" />
+    <img src={dogs2} alt="" class="w-full" />
     <div class="bg-tertiary-500">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Kąpiel</h2>
@@ -46,7 +55,7 @@
     </div>
   </div>
   <div class="sm:w-1/3">
-    <img src="/src/lib/assets/dogs1.png" alt="" class="w-full" />
+    <img src={dogs1} alt="" class="w-full" />
     <div class="bg-tertiary-500">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Pielęgnacja</h2>
@@ -63,7 +72,7 @@
   <div class="py-8">
     <div class="flex flex-col sm:flex-row">
       <img
-        src="/src/lib/assets/scissors.png"
+        src={scissors}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
@@ -82,7 +91,7 @@
   <div id="price" class="py-8">
     <div class="flex flex-col sm:flex-row">
       <img
-        src="/src/lib/assets/shower.png"
+        src={shower}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
@@ -101,7 +110,7 @@
   <div class="py-8">
     <div class="flex flex-col sm:flex-row">
       <img
-        src="/src/lib/assets/ear.png"
+        src={ear}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
@@ -118,7 +127,7 @@
   <div class="py-8">
     <div class="flex flex-col sm:flex-row">
       <img
-        src="/src/lib/assets/pawprint.png"
+        src={pawprint}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
@@ -134,7 +143,7 @@
   <div class="py-8">
     <div class="flex flex-col sm:flex-row">
       <img
-        src="/src/lib/assets/add.png"
+        src={add}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
@@ -165,7 +174,7 @@
 <div id="contact" class="px-24 py-8 text-white bg-primary-500 font-Akaya">
   <h1 class="text-8xl">O nas</h1>
   <div class="flex flex-col md:flex-row">
-    <img src="/src/lib/assets/about-dog.png" alt="" class="md:h-64 lg:h-96" />
+    <img src={aboutdog} alt="" class="md:h-64 lg:h-96" />
     <span class="block text-xl"
       >Mam na imię Natalia Hercog-Brzóska i jestem założycielką Natsuenio
       Grooming. Z wykształcenia jestem technikiem weterynarii. Od najmłodszych
