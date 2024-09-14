@@ -1,9 +1,9 @@
 <script>
   import landing from "$lib/assets/landing.png";
-  import dogs1 from "$lib/assets/dogs1.png";
-  import dogs2 from "$lib/assets/dogs2.png";
-  import dogs3 from "$lib/assets/dogs3.png";
-  import aboutdog from "$lib/assets/about-dog.png";
+  import dogs1 from "$lib/assets/bath.png";
+  import dogs2 from "$lib/assets/cut.png";
+  import dogs3 from "$lib/assets/upkeep.png";
+  import aboutdog from "$lib/assets/me.png";
   import add from "$lib/assets/add.png";
   import ear from "$lib/assets/ear.png";
   import landing1 from "$lib/assets/landing1.png";
@@ -29,7 +29,7 @@
   </div>
 </div>
 
-<div id="offer" class="flex flex-col font-Akaya sm:flex-row bg-tertiary-500">
+<div id="offer" class="flex flex-col font-Akaya sm:flex-row bg-tertiary-500 border-8 border-t-primary-500">
   <div class="sm:w-1/3">
     <img src={dogs1} alt="" class="w-full" />
     <div class="">
@@ -55,7 +55,7 @@
     </div>
   </div>
   <div class="sm:w-1/3">
-    <img src={dogs1} alt="" class="w-full" />
+    <img src={dogs3} alt="" class="w-full" />
     <div class="bg-tertiary-500">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Pielęgnacja</h2>
@@ -70,62 +70,71 @@
 
 <div class="px-2 sm:px-16 bg-secondary-500 font-Akaya">
   <div class="py-8">
-    <div class="flex flex-col sm:flex-row">
+    <div class="flex flex-col sm:flex-row items-center">
       <img
         src={scissors}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
       <div class="ml-8">
-        <h3 class="text-4xl">Strzyżenie i stylizacja</h3>
+        <h3 class="text-4xl">Pielęgnacja podstawowa</h3>
+        <h2 class="text-3xl">Kąpiel 3-etapowa + pazurki</h2>
         <ul class="text-2xl list-disc list-inside">
-          <li>Małe psy (do 10 kg): 100-150 PLN</li>
-          <li>Średnie psy (10-25 kg): 150-200 PLN</li>
-          <li>Duże psy (25-40 kg): 200-250 PLN</li>
-          <li>Bardzo duże psy (powyżej 40 kg): 250-350 PLN</li>
+          <li>Pieski do 5kg: 70 zł/h</li>
+          <li>Pieski od 5-10kg: 100 zł/h</li>
+          <li>Pieski od 10-15kg: 130 zł/h</li>
+          <li>Pieski od 15-25kg: 180 zł/h</li>
+          <li>Pieski powyżej 25kg: Cena ustalana indywidualnie</li>
         </ul>
       </div>
     </div>
   </div>
 
   <div id="price" class="py-8">
-    <div class="flex flex-col sm:flex-row">
+    <div class="flex flex-col sm:flex-row items-center">
       <img
         src={shower}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
       <div class="ml-8">
-        <h3 class="text-4xl">Kąpiel i pielęgnacja</h3>
+        <h3 class="text-4xl">Pielęgnacja kompleksowa dla psów strzyżonych</h3>
+        <h2 class="text-3xl">Kąpiel 3-etapowa + strzyżenie + higiena uszu + okolice uszu + pazurki</h2>
         <ul class="text-2xl list-disc list-inside">
-          <li>Małe psy: 70-100 PLN</li>
-          <li>Średnie psy: 100-130 PLN</li>
-          <li>Duże psy: 130-180 PLN</li>
-          <li>Bardzo duże psy: 180-250 PLN</li>
+          <li>Pieski do 5kg: 130 zł+</li>
+          <li>Pieski od 5-10kg: 140 zł+</li>
+          <li>Pieski od 10-15kg: 160 zł+</li>
+          <li>Pieski od 15+: 200 zł+</li>
         </ul>
       </div>
     </div>
   </div>
 
   <div class="py-8">
-    <div class="flex flex-col sm:flex-row">
+    <div class="flex flex-col sm:flex-row items-center">
       <img
         src={ear}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
       <div class="ml-8">
-        <h3 class="text-4xl">Pielęgnacja uszu i oczu</h3>
+        <h3 class="text-4xl">Pielęgnacja kompleksowa dla psów podszerstkowych</h3>
+        <h2 class="text-3xl">Kąpiel 3-etapowa + strzyżenie + higiena uszu + okolice uszu + pazurki</h2>
         <ul class="text-2xl list-disc list-inside">
-          <li>Czyszczenie uszu: 20-40 PLN</li>
-          <li>Pielęgnacja oczu: 20-40 PLN</li>
+          <li>Pieski do 6kg: 130 zł+</li>
+          <li>Pieski od 6-15kg: 150 zł+</li>
+          <li>Pieski od 15+: 260 zł+</li>
+          <br>
+          <li>Trymowanie: 130 zł/h</li>
+          <li>Wizyta adaptacyjna dla szczeniaków: Gratis</li>
+          <li>Podcięcie pazurków: 20 zł</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="py-8">
-    <div class="flex flex-col sm:flex-row">
+  <!-- <div class="py-8">
+    <div class="flex flex-col sm:flex-row items-center">
       <img
         src={pawprint}
         alt=""
@@ -138,43 +147,36 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="py-8">
-    <div class="flex flex-col sm:flex-row">
+    <div class="flex flex-col sm:flex-row items-center">
       <img
         src={add}
         alt=""
         class="w-32 mb-4 sm:w-auto sm:h-32"
       />
       <div class="ml-8">
-        <h3 class="text-4xl">Usługi dodatkowe</h3>
+        <h3 class="text-4xl">Dodatkowe koszta do cen podstawowych</h3>
         <ul class="text-2xl list-disc list-inside">
-          <li>
-            Rozczesywanie skołtunionej sierści: 50-150 PLN (w zależności od
-            wielkości psa i stopnia skołtunienia)
-          </li>
-          <li>
-            Stylizacja i farbowanie sierści: 100-200 PLN (zależnie od zakresu
-            usługi)
-          </li>
-          <li>Pielęgnacja zębów (usuwanie kamienia nazębnego): 100-200 PLN</li>
+          <li>Kołtuny: 30 zł+</li>
+          <li>Filc: 30 zł+</li>
+          <li>Niewspółpracujący pies: 30zł</li>
         </ul>
       </div>
     </div>
   </div>
 
   <div class="py-8 text-xl">
-    Uwaga: Podane ceny są orientacyjne i mogą się różnić w zależności od
-    konkretnej rasy psa, jego stanu sierści oraz indywidualnych potrzeb.
+    Uwaga: Podane ceny mają charakter orientacyjne. Ostateczna cena usługi jest uzależniona od kondycji i rodzaju szaty oraz zachowania pieska.
     Zachęcamy do kontaktu w celu uzyskania dokładnej wyceny.
   </div>
 </div>
 
-<div id="contact" class="px-24 py-8 text-white bg-primary-500 font-Akaya">
+<div id="about" class="px-24 py-8 text-white bg-primary-500 font-Akaya">
   <h1 class="text-8xl">O nas</h1>
   <div class="flex flex-col md:flex-row">
-    <img src={aboutdog} alt="" class="md:h-64 lg:h-96" />
+    <img src={aboutdog} alt="" class="md:h-64 lg:h-96 rounded-xl mr-6 mb-6" />
     <span class="block text-xl"
       >Mam na imię Natalia Hercog-Brzóska i jestem założycielką Natsuenio
       Grooming. Z wykształcenia jestem technikiem weterynarii. Od najmłodszych
@@ -192,17 +194,17 @@
   </div>
 </div>
 
-<div id="about" class="px-24 py-8 text-white bg-secondary-500 font-Akaya">
+<div id="contact" class="px-24 py-8 text-white bg-secondary-500 font-Akaya">
   <h1 class="text-8xl">Kontakt</h1>
   <div class="flex flex-col md:flex-row">
     <div class="w-full md:w-1/3">
       <p class="mb-8 text-3xl">
         Adres: <br />
-        ul. Kościuszki 38/1 <br />
-        00-000 Poznań <br />
+        ul. Skryta 99 <br />
+        Plewiska (obok Poznania) <br />
         <br />
         Telefon: <br />
-        123 456 789 <br />
+        662 696 909<br />
         <br />
         Godziny otwarcia: <br />
         Pn-Pt: 10:00 - 18:00 <br />
