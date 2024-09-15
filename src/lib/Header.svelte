@@ -52,10 +52,8 @@
       >
         <a class="text-white hover:text-secondary-300" href="#offer">Oferta</a>
         <a class="text-white hover:text-secondary-300" href="#price">Cennik</a>
-        <a class="text-white hover:text-secondary-300" href="#contact"
-          >Kontakt</a
-        >
         <a class="text-white hover:text-secondary-300" href="#about">O nas</a>
+        <a class="text-white hover:text-secondary-300" href="#contact">Kontakt</a>
         <div class="flex space-x-6">
           <a href="/instagram" class="block py-3 text-white lg:border-0">
             <span class="[&>svg]:h-10 [&>svg]:w-10">

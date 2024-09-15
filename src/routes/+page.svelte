@@ -1,7 +1,7 @@
 <script>
   import landing from "$lib/assets/landing.png";
-  import dogs1 from "$lib/assets/bath.png";
-  import dogs2 from "$lib/assets/cut.png";
+  import dogs1 from "$lib/assets/cut.png";
+  import dogs2 from "$lib/assets/bath.png";
   import dogs3 from "$lib/assets/upkeep.png";
   import aboutdog from "$lib/assets/me.png";
   import add from "$lib/assets/add.png";
@@ -10,15 +10,20 @@
   import pawprint from "$lib/assets/pawprint.png";
   import scissors from "$lib/assets/scissors.png";
   import shower from "$lib/assets/shower.png";
+  
+  import gallery1 from "$lib/assets/gallery1.jpg";
+  import gallery2 from "$lib/assets/gallery2.jpg";
+  import gallery3 from "$lib/assets/gallery3.jpg";
+  import gallery4 from "$lib/assets/gallery4.jpg";
   import { base } from "$app/paths";
 </script>
 
 <div
-  class="w-full h-screen px-10 bg-secondary-500 sm:bg-cover bg-center bg-no-repeat sm:bg-top bg-[url('/src/lib/assets/landing.png')] font-Akaya"
+  class="w-full h-screen px-10 bg-secondary-500 bg-cover bg-center bg-no-repeat bg-top bg-[url('/src/lib/assets/landing4.jpeg')] font-Akaya"
 >
-  <div class="flex flex-col items-center justify-center h-full sm:items-start">
+  <div class="flex flex-col items-center justify-center h-full lg:items-start">
     <!-- <img src={landing} alt="" /> -->
-    <span class="px-4 text-4xl text-center text-black lg:text-6xl sm:text-white"
+    <span class="px-4 text-4xl text-center lg:text-6xl text-white"
       >Zajmiemy <br /> się Twoim <br /> pupilem!</span
     >
     <a
@@ -29,7 +34,7 @@
   </div>
 </div>
 
-<div id="offer" class="flex flex-col font-Akaya sm:flex-row bg-tertiary-500 border-8 border-t-primary-500">
+<div id="offer" class="flex flex-col font-Akaya sm:flex-row bg-tertiary-500 border-t-8 border-tertiary-600">
   <div class="sm:w-1/3">
     <img src={dogs1} alt="" class="w-full" />
     <div class="">
@@ -65,6 +70,21 @@
         </span>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="gallery" class="bg-tertiary-500 flex justify-center flex-wrap p-16">
+  <div class="w-full xl:w-1/4 lg:w-1/3 lg:mr-16 mb-16 border-8 border-primary-500 rounded">
+    <img src={gallery1} alt="">
+  </div>
+  <div class="w-full xl:w-1/4 lg:w-1/3 lg:mr-16 mb-16 border-8 border-primary-500 rounded">
+    <img src={gallery2} alt="">
+  </div>
+  <div class="w-full xl:w-1/4 lg:w-1/3 lg:mr-16 mb-16 border-8 border-primary-500 rounded">
+    <img src={gallery3} alt="">
+  </div>
+  <div class="w-full xl:w-1/4 lg:w-1/3 lg:mr-16 mb-16 border-8 border-primary-500 rounded">
+    <img src={gallery4} alt="">
   </div>
 </div>
 
