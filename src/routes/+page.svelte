@@ -28,8 +28,13 @@
       >Zajmiemy <br /> się Twoim <br /> pupilem!</span
     >
     <a
-      href="/"
-      class="px-4 py-4 mt-4 text-4xl rounded-full lg:text-6xl bg-primary-500 hover:bg-primary-600"
+      href="#contact"
+      class="md:block hidden px-4 py-4 mt-4 text-4xl rounded-full lg:text-6xl bg-primary-500 hover:bg-primary-600"
+      >Umów się!</a
+    >
+    <a
+      href="tel:662696909"
+      class="md:hidden block px-4 py-4 mt-4 text-4xl rounded-full lg:text-6xl bg-primary-500 hover:bg-primary-600"
       >Umów się!</a
     >
   </div>
@@ -228,7 +233,7 @@
         Plewiska (obok Poznania) <br />
         <br />
         Telefon: <br />
-        662 696 909<br />
+        <a href="tel:662696909" class="animate-pulse">662 696 909</a><br />
         <br />
         Godziny otwarcia: <br />
         Pn-Pt: 10:00 - 18:00 <br />
