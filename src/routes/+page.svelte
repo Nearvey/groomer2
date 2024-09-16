@@ -14,7 +14,8 @@
   import gallery1 from "$lib/assets/gallery1.jpg";
   import gallery2 from "$lib/assets/gallery2.jpg";
   import gallery3 from "$lib/assets/gallery3.jpg";
-  import gallery4 from "$lib/assets/gallery4.jpg";
+  import gallery4 from "$lib/assets/gallery4.png";
+  import gallery5 from "$lib/assets/gallery5.jpg";
   import { base } from "$app/paths";
 </script>
 
@@ -40,10 +41,10 @@
     <div class="">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Strzyżenie</h2>
-        <span class="w-full text-2xl text-justify"
+        <!-- <span class="w-full text-2xl text-justify"
           >[Tekst1]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           molestie libero in neque blandit porta. Nullam nec odio auctor.</span
-        >
+        > -->
       </div>
     </div>
   </div>
@@ -52,10 +53,10 @@
     <div class="bg-tertiary-500">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Kąpiel</h2>
-        <span class="w-full text-2xl text-justify"
+        <!-- <span class="w-full text-2xl text-justify"
           >[Tekst2]Phasellus porttitor, erat maximus rhoncus ultrices, est arcu
           facilisis risus, vitae tincidunt est massa a ex.
-        </span>
+        </span> -->
       </div>
     </div>
   </div>
@@ -64,10 +65,10 @@
     <div class="bg-tertiary-500">
       <div class="py-6 xl:px-16 sm:px-8">
         <h2 class="text-4xl text-center">Pielęgnacja</h2>
-        <span class="w-full text-2xl text-justify"
+        <!-- <span class="w-full text-2xl text-justify"
           >[Tekst3]Donec pretium, libero scelerisque pellentesque blandit, urna
           risus pharetra sapien, ut semper sem enim in metus.
-        </span>
+        </span> -->
       </div>
     </div>
   </div>
@@ -85,6 +86,9 @@
   </div>
   <div class="w-full xl:w-1/4 lg:w-1/3 lg:mr-16 mb-16 border-8 border-primary-500 rounded">
     <img src={gallery4} alt="">
+  </div>
+  <div class="w-full xl:w-1/4 lg:w-1/3 lg:mr-16 mb-16 border-8 border-primary-500 rounded">
+    <img src={gallery5} alt="">
   </div>
 </div>
 
@@ -119,7 +123,7 @@
       />
       <div class="ml-8">
         <h3 class="text-4xl">Pielęgnacja kompleksowa dla psów strzyżonych</h3>
-        <h2 class="text-3xl">Kąpiel 3-etapowa + strzyżenie + higiena uszu + okolice uszu + pazurki</h2>
+        <h2 class="text-3xl">Kąpiel 3-etapowa + strzyżenie + higiena uszu + okolice oczu + pazurki</h2>
         <ul class="text-2xl list-disc list-inside">
           <li>Pieski do 5kg: 130 zł+</li>
           <li>Pieski od 5-10kg: 140 zł+</li>
@@ -139,7 +143,7 @@
       />
       <div class="ml-8">
         <h3 class="text-4xl">Pielęgnacja kompleksowa dla psów podszerstkowych</h3>
-        <h2 class="text-3xl">Kąpiel 3-etapowa + strzyżenie + higiena uszu + okolice uszu + pazurki</h2>
+        <h2 class="text-3xl">Kąpiel 3-etapowa + strzyżenie + higiena uszu + okolice oczu + pazurki</h2>
         <ul class="text-2xl list-disc list-inside">
           <li>Pieski do 6kg: 130 zł+</li>
           <li>Pieski od 6-15kg: 150 zł+</li>
@@ -228,7 +232,7 @@
         <br />
         Godziny otwarcia: <br />
         Pn-Pt: 10:00 - 18:00 <br />
-        Sb: 12:00 - 18:00 <br />
+        Sb: 10:00 - 14:00 <br />
         Ndz: Nieczynne
       </p>
     </div>
