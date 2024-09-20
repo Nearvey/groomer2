@@ -22,7 +22,7 @@
     Copyright &copy; 2024 Natsuenio Grooming
   </h1>
   <div class="flex space-x-8">
-    <a href="/instagram" class="block py-3 text-white lg:border-0">
+    <a href="https://www.instagram.com/natsuenio_grooming?igsh=azh1Y3g4MGxnNHhy" target="_blank" class="block py-3 text-white lg:border-0">
       <span class="">
         <svg
           width="70"
@@ -38,7 +38,7 @@
         </svg>
       </span>
     </a>
-    <a href="/facebook" class="block py-3 text-white">
+    <a href="https://www.facebook.com/share/4gKhm6H9SqaUZsDc/" target="_blank" class="block py-3 text-white">
       <span class="">
         <svg
           width="70"

@@ -55,7 +55,7 @@
         <a class="text-white hover:text-secondary-300" href="#about">O nas</a>
         <a class="text-white hover:text-secondary-300" href="#contact">Kontakt</a>
         <div class="flex space-x-6">
-          <a href="/instagram" class="block py-3 text-white lg:border-0">
+          <a href="https://www.instagram.com/natsuenio_grooming?igsh=azh1Y3g4MGxnNHhy" target="_blank" class="block py-3 text-white lg:border-0">
             <span class="[&>svg]:h-10 [&>svg]:w-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@
               </svg>
             </span>
           </a>
-          <a href="/facebook" class="block py-3 text-white">
+          <a href="https://www.facebook.com/share/4gKhm6H9SqaUZsDc/" target="_blank" class="block py-3 text-white">
             <span class="[&>svg]:h-10 [&>svg]:w-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
