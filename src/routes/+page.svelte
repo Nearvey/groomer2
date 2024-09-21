@@ -1,4 +1,6 @@
 <script>
+  import logo from "$lib/assets/logo_grooming.png";
+
   import landing from "$lib/assets/landing.png";
   import dogs1 from "$lib/assets/cut.png";
   import dogs2 from "$lib/assets/bath.png";
@@ -19,26 +21,45 @@
   import { base } from "$app/paths";
 </script>
 
-<div
-  class="w-full h-screen px-10 bg-secondary-500 bg-contain bg-no-repeat bg-top bg-[url('/src/lib/assets/logo_grooming.png')] font-Akaya"
+<!-- bg-contain bg-no-repeat bg-top bg-[url('/src/lib/assets/logo_grooming.png')] -->
+
+<!-- <div
+  class="w-full lg:h-screen overflow- px-10 py-10 bg-secondary-500  font-Akaya"
 >
-  <div class="flex flex-col items-center justify-center h-full lg:items-start">
-    <!-- <img src={landing} alt="" /> -->
-    <span class="px-4 text-4xl text-center lg:text-6xl text-black"
+  <div class="flex items-center flex-col lg:flex-row-reverse lg:justify-center h-full">
+    <img class="w-full sm:w-2/3 lg:w-auto lg:h-full mb-10 lg:mb-0" src={logo} alt="">
+  <div class="flex flex-col items-center justify-center h-full lg:items-start w-full lg:w-1/3">
+
+    <span class="px-4 mb-6 text-4xl text-center sm:text-6xl 2xl:text-8xl text-black"
       >Zajmiemy <br /> się Twoim <br /> pupilem!</span
     >
     <a
       href="#contact"
-      class="md:block hidden px-4 py-4 mt-4 text-4xl rounded-full lg:text-6xl bg-primary-500 hover:bg-primary-600"
+      class="animate-bounce md:block hidden px-4 py-4 mt-4 text-4xl rounded-full sm:text-6xl 2xl:text-8xl bg-primary-500 hover:bg-primary-600"
       >Umów się!</a
     >
     <a
       href="tel:662696909"
-      class="md:hidden block px-4 py-4 mt-4 text-4xl rounded-full lg:text-6xl bg-primary-500 hover:bg-primary-600"
+      class="animate-bounce md:hidden block px-4 py-4 mt-4 text-4xl rounded-full sm:text-6xl 2xl:text-8xl bg-primary-500 hover:bg-primary-600"
       >Umów się!</a
     >
   </div>
-</div>
+  </div>
+  
+  </div> -->
+
+  <section class="bg-secondary-500 dark:bg-gray-900 font-Akaya">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <img class="w-full" src={logo} alt="dashboard image">
+        <div class="mt-4 md:mt-0 text-center">
+            <h2 class="mb-6 text-6xl lg:text-8xl tracking-tight text-primary-700">Zajmiemy <br> się Twoim <br> pupilem!</h2>
+            <a href="#contact" class="inline-flex items-center text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-4xl lg:text-6xl px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                Umów się!
+                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+        </div>
+    </div>
+</section>
 
 <div id="offer" class="flex flex-col font-Akaya sm:flex-row bg-tertiary-500 border-t-8 border-tertiary-600">
   <div class="sm:w-1/3">
@@ -202,7 +223,7 @@
   </div>
 </div>
 
-<div id="about" class="px-24 py-8 text-white bg-primary-500 font-Akaya">
+<div id="about" class="px-10 sm:px-24 py-8 text-white bg-primary-500 font-Akaya">
   <h1 class="text-8xl">O nas</h1>
   <div class="flex flex-col md:flex-row">
     <img src={aboutdog} alt="" class="md:h-64 lg:h-96 rounded-xl mr-6 mb-6" />
@@ -223,8 +244,8 @@
   </div>
 </div>
 
-<div id="contact" class="px-24 py-8 text-white bg-secondary-500 font-Akaya">
-  <h1 class="text-8xl">Kontakt</h1>
+<div id="contact" class="px-10 sm:px-24 py-8 text-white bg-secondary-500 font-Akaya">
+  <h1 class="text-6xl sm:text-8xl">Kontakt</h1>
   <div class="flex flex-col md:flex-row">
     <div class="w-full md:w-1/3">
       <p class="mb-8 text-3xl">
