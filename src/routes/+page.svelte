@@ -20,11 +20,11 @@
 </script>
 
 <div
-  class="w-full h-screen px-10 bg-secondary-500 bg-cover bg-center bg-no-repeat bg-top bg-[url('/src/lib/assets/landing4.jpeg')] font-Akaya"
+  class="w-full h-screen px-10 bg-secondary-500 bg-contain bg-no-repeat bg-top bg-[url('/src/lib/assets/logo_grooming.png')] font-Akaya"
 >
   <div class="flex flex-col items-center justify-center h-full lg:items-start">
     <!-- <img src={landing} alt="" /> -->
-    <span class="px-4 text-4xl text-center lg:text-6xl text-white"
+    <span class="px-4 text-4xl text-center lg:text-6xl text-black"
       >Zajmiemy <br /> się Twoim <br /> pupilem!</span
     >
     <a
